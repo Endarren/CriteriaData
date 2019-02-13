@@ -18,16 +18,6 @@ namespace npScripts
 	{
 		#region Fields
 
-		/// <summary>
-		/// Defines the useAspect
-		/// </summary>
-		public bool useAspect;
-
-		/// <summary>
-		/// The sensor aspects that are allowed.
-		/// </summary>
-		[Tooltip("The sensor aspects that are allowed.")]
-		public List<SensorAspectData> allowedAspects = new List<SensorAspectData>();
 
 		/// <summary>
 		/// Defines the useTag
@@ -74,16 +64,8 @@ namespace npScripts
 				return false;
 			GameObject go = (GameObject)o;
 			bool result = true;
-			SensorAspect sa = go.GetComponent<SensorAspect>();
 			if (mustMeetAll)
 			{
-				if (useAspect)
-				{
-					if (sa != null)
-						result = result && allowedAspects.Contains(sa.aspect);
-					else
-						return false;
-				}
 				if (useTag)
 					result = result && allowedTags.Contains(go.tag);
 				if (useLayers)
@@ -92,13 +74,6 @@ namespace npScripts
 			else
 			{
 				result = false;
-				if (useAspect)
-				{
-					if (sa != null)
-						result = result || allowedAspects.Contains(sa.aspect);
-					else
-						result = result || false;
-				}
 				if (useTag)
 					result = result || allowedTags.Contains(go.tag);
 				if (useLayers)
