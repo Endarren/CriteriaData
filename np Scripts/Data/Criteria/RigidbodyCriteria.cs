@@ -2,7 +2,7 @@
 
 namespace EndarScripts
 {
-	[CreateAssetMenu(fileName = "Rigidbody Criteria Data", menuName = "EndarScript/Criteria/Rigidbody CriteriaData")]
+	[CreateAssetMenu(fileName = "Rigidbody Criteria Data", menuName = "EndarScripts/Criteria/Rigidbody CriteriaData")]
 	public class RigidbodyCriteria : CriteriaDataBase
 	{
 		#region Public Fields
