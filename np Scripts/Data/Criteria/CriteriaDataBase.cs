@@ -1,10 +1,6 @@
-﻿//<author>Nicholas Irwin</author>
-//<company> nonPareil Institute</company>
-//<copyright file ="CriteriaDataBase.cs" All Rights Reserved
-//</copyright>
-//<date>1/30/2018</date>
 
-namespace npScripts
+
+namespace EndarScripts
 {
 	using UnityEngine;
 
