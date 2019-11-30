@@ -1,10 +1,7 @@
 ﻿//<author>Nicholas Irwin</author>
-//<company> nonPareil Institute</company>
-//<copyright file ="NPUtilities.cs" All Rights Reserved
-//</copyright>
-//<date>1/23/2018</date>
 
-namespace npScripts.Utilities
+
+namespace EndarScripts.Utilities
 {
 	using System;
 	using System.Collections.Generic;
