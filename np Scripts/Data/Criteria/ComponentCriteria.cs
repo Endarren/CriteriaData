@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace npScripts
+namespace EndarScripts
 {
 	[CreateAssetMenu(fileName = "Component Criteria Data", menuName = "nonPareil/Criteria/Component Criteria")]
 	public class ComponentCriteria : CriteriaDataBase
