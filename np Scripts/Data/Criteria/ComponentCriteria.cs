@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 namespace EndarScripts
 {
-	[CreateAssetMenu(fileName = "Component Criteria Data", menuName = "nonPareil/Criteria/Component Criteria")]
+	[CreateAssetMenu(fileName = "Component Criteria Data", menuName = "EndarScripts/Criteria/Component Criteria")]
 	public class ComponentCriteria : CriteriaDataBase
 	{
 		public List<string> componentNames = new List<string>();
