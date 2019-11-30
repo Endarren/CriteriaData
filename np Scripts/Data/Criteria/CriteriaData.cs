@@ -1,19 +1,15 @@
-﻿//<author>Nicholas Irwin</author>
-//<company> nonPareil Institute</company>
-//<copyright file ="CriteriaData.cs" All Rights Reserved
-//</copyright>
-//<date>1/29/2018</date>
 
-namespace npScripts
+
+namespace EndarScripts
 {
-	using npScripts.Utilities;
+	using EndarScripts.Utilities;
 	using System.Collections.Generic;
 	using UnityEngine;
 
 	/// <summary>
 	/// Used to determine if something mets certain requirements.
 	/// </summary>
-	[CreateAssetMenu(fileName = "Criteria Data", menuName = "nonPareil/Criteria/CriteriaData")]
+	[CreateAssetMenu(fileName = "Criteria Data", menuName = "EndarScripts/Criteria/CriteriaData")]
 	public class CriteriaData : CriteriaDataBase
 	{
 		#region Fields
