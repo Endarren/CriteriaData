@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace npScripts
+namespace EndarScripts
 {
 	public enum NumberCompare { Equal, NotEqual, LessThan, GreaterThan, LessThanEqualTo, GreaterThanEqualTo }
 	public class NPNumberCompare
