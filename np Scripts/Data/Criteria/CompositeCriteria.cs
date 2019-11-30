@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace npScripts
+namespace EndarScripts
 {
 	[CreateAssetMenu(fileName = "Composite Criteria Data", menuName = "nonPareil/Criteria/Composite CriteriaData")]
 	public class CompositeCriteria : CriteriaDataBase
