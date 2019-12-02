@@ -3,7 +3,7 @@ A base scriptable object that can be used to see if an object mets certain crite
 
 # How to Create
 
-Right-click in the Project Tab.  In the pop up, go to Create -> nonPareil -> Criteria and pick the one you want to use.
+Right-click in the Project Tab.  In the pop up, go to Create -> Endar Scripts -> Criteria and pick the one you want to use.
 
 # How to Use
 
